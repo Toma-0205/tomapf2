@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Noto Serif JP', serif;
+}
+
+.section-inner{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    padding-top: 40px;
+    background-color: #000;
+}
+
+.header-logo{
+    width: 180px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    margin-top: 40px;
+    color: #FFD600;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item + .nav-item{
+    margin-left: 40px;
+}
+
+/* key-visual */
+.kv{
+    background-color: #000;  
+    padding: 60px 0; 
+}
+
+.kv-img{
+    height: 480px;
+}
+
+.kv-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* main */
+
+.section-wrap{
+    padding: 60px 0;
+    background-color: #000;
+}
+
+.section-ttl{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFD600;
+}
+
+.concept{
+    color: #fff;
+}
+
+.concept-catchcopy{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.concept-txt{
+    text-align: center;
+    margin-top: 45px;
+}
+
+/* main-2 */
+
+.section-inner{
+    max-width: 700px;
+}
+
+.info-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-img{
+    max-width: 312px;
+    width: 48%;
+}
+
+.info-content{
+    max-width: 520px;
+    width: 48%;
+}
+
+.info-ttl{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD600;
+}
+
+.info-txt{
+    margin-top: 24px;
+    color: #fff;
+}
+
+.info-btn{
+    font-family: 'Noto Sans JP', sans-serif;
+    display: block;
+    border: 1px solid #fff;
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.info-btn:hover{
+    background-color: #FFD600;
+    color: #000;
+}
+
+.info-info:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+
+/* company */
+.section-wrap2{
+    padding: 60px 0;
+    background-color: #000;
+}
+
+.company-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.company-img{
+    max-width: 312px;
+    width: 48%;
+}
+
+.company-content{
+    max-width: 520px;
+    width: 48%;
+    color: #fff;
+}
+
+.company-table{
+    width: 100%;
+}
+
+.company-row{
+    border-bottom: 1px solid #fff;
+}
+
+.company-head, .company-data{
+    padding: 16px 0;
+}
+
+
+/* footer */
+
+.footer{
+    padding-top: 60px;
+    color: #FFD600;
+    background-color: #000;
+}
+
+.footer-logo{
+    width: 180px;
+    margin: 0 auto;
+}
+
+.footer-list{
+    margin-top: 40px;
+}
+
+.footer-cr{
+    display: block;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 60px;
+    color: #fff;
+}
